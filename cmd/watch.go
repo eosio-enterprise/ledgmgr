@@ -71,6 +71,7 @@ func Watch() *cobra.Command {
 				}
 				counter++
 			}
+			time.Sleep(time.Millisecond * 100)
 		}
 	}
 
